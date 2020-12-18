@@ -1,4 +1,4 @@
-###Introduction
+Introduction
 -----------------------------------------------
 For our final project we built a medieval castle obstacle course where the player must
 evade dangerous enchanted weapons and pools of lava to reach the finish line as fast as they
@@ -14,7 +14,7 @@ immersive than a keyboard and mouse. Giant medieval weaponry swinging in your fa
 falling into lava in first person would increase the users sense of actually being in that situation,
 making for a more immersive experience.
 
-###Related Works
+Related Works
 -----------------------------------------------
 When we first started to develop ideas for our game we took a look at the recently
 popular game Fall Guys. We took a look at what type of objects were used and the type of
@@ -34,7 +34,7 @@ Design
 The main components of our project consisted of the Terrain, Castle, Obstacles, and
 different menus and displays throughout the game. 
 
-###Menu
+Menu
 ---------------------------------------
 We wanted to design the game so that if it were VR the player would really feel like they were in
 a dangerous medieval setting, so rather than just building the obstacle course, we also built a
@@ -80,7 +80,7 @@ through the floor! So we came up with the idea of having 2 sphere colliders, one
 boulder exactly with a proper physics material, and another one that extended beyond the
 boulder by just a bit and acted as a hit box to detect when the player hit it.
 
-###Assets Used:
+Assets Used:
 --------------------------------------------------
 https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-
 32351
@@ -91,7 +91,7 @@ https://assetstore.unity.com/packages/3d/props/weapons/melee-weapons-pack-swords
 Used to learn timers: https://www.youtube.com/watch?v=x-C95TuQtf0&feature=emb_title
 Orbit.cs given in the first lab
 
-###Lessons Learned:
+Lessons Learned:
 -------------------------------------------------
 We all learned a lot about unity and VR/Game Design throughout this project. I (Jacob)
 have wanted to learn how to create video game environments and terrain and was able to
