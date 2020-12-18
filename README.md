@@ -1,3 +1,11 @@
+Fellow Programmers
+---------------------------------------------
+Jacob Halvorson - https://github.com/jhalvorson6687
+Christopher Diaz - https://github.com/ChristopherDiaz98
+
+
+
+
 Introduction
 -----------------------------------------------
 For our final project we built a medieval castle obstacle course where the player must
