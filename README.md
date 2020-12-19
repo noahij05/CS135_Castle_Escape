@@ -1,15 +1,17 @@
 Fellow Programmers
 ---------------------------------------------
-Jacob Halvorson - https://github.com/jhalvorson6687  
-Christopher Diaz - https://github.com/ChristopherDiaz98  
+[Jacob Halvorson](https://github.com/jhalvorson6687)  
+[Christopher Diaz](https://github.com/ChristopherDiaz98)  
 
 
 
 
 Introduction
 -----------------------------------------------
-!( https://github.com/noahij05/CS135_Castle_Escape/blob/main/Photos/intro_photo.PNG?raw=true )  
-For our final project we built a medieval castle obstacle course where the player must
+<p align="center">
+  <img src="https://github.com/noahij05/CS135_Castle_Escape/blob/main/Photos/intro_photo.PNG?raw=true">
+</p>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For our final project we built a medieval castle obstacle course where the player must
 evade dangerous enchanted weapons and pools of lava to reach the finish line as fast as they
 can. This is a solo player game where the goal is to try and beat your high score. The keep is
 located in an eerie secluded forest surrounded by mountains and thick fog. There are various
@@ -25,7 +27,7 @@ making for a more immersive experience.
 
 Related Works
 -----------------------------------------------
-When we first started to develop ideas for our game we took a look at the recently
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When we first started to develop ideas for our game we took a look at the recently
 popular game Fall Guys. We took a look at what type of objects were used and the type of
 obstacle courses they used. We ended up using a lot more muted colors such as the greys of
 the castle and dark greens of the forest. Compared to Fall guys our game is much easier on the
@@ -42,12 +44,22 @@ starting point rather than lose outright.
 
 Design
 --------------------------------------
-The main components of our project consisted of the Terrain, Castle, Obstacles, and
-different menus and displays throughout the game. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The main components of our project consisted of the Terrain, Castle, Obstacles, and
+different menus and displays throughout the game. Below are screenshots of the main sections of the game:  
+<p align="center">
+  <img src="https://github.com/noahij05/CS135_Castle_Escape/blob/main/Photos/terrain.PNG?raw=true">
+</p>  
+
+<p align="center">
+  <img src="https://github.com/noahij05/CS135_Castle_Escape/blob/main/Photos/Castle_obstacles.PNG?raw=true">
+</p>  
 
 Menu
 ---------------------------------------
-We wanted to design the game so that if it were VR the player would really feel like they were in
+<p align="center">
+  <img src="https://github.com/noahij05/CS135_Castle_Escape/blob/main/Photos/menu.PNG?raw=true">
+</p>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We wanted to design the game so that if it were VR the player would really feel like they were in
 a dangerous medieval setting, so rather than just building the obstacle course, we also built a
 surrounding terrain that resembles a common type of area where castles were built, a place with
 natural defense mechanisms. We designed a surrounding with mountains, hills, trees, and thick
@@ -61,14 +73,16 @@ this game would be a great VR experience, however to others it could easily caus
 sickness. The controls for our game were pretty basic as the main mechanic was avoiding
 obstacles, so we only needed w, a, s, and d to move and the spacebar to jump. Additionally, we
 made 1 start the timer so the user can explore the map or practice the course without the timer
-running.
-While we did not have access to VR hardware, we did try to take it into account. For
+running.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; While we did not have access to VR hardware, we did try to take it into account. For
 instance our color scheme consists of nice, muted colors. This means that the player will feel
 less eye strain when playing the game for longer periods of time. When inside darker places, we
 illuminated them slightly more than average so that the player can have an easier time seeing
 their way around the course.
+
 Implementation
-For our implementation we used the C# coding language to make our obstacles have
+--------------------------------------
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For our implementation we used the C# coding language to make our obstacles have
 specific interactions with the player. We also used this language to set up a way to show and
 record the time it would take to complete the course. The three scripts that we used to set up
 the game were teleport.cs, timer.cs, and the orbit.cs scripts. The most important script that we
@@ -78,8 +92,8 @@ section of the course they were at. The next script that was used to implement t
 the timer.cs script. We needed it to do two primary things, keep track of the time passed after
 the start button was pressed and to display the previous scores after the game is exited. The
 last script used was the orbit.cs script which was used to make the objects such as the axes
-and the swords rotate so that they would be a more dangerous obstacle to get around.
-A major problem we encountered was with the obstacles knocking the player back. We
+and the swords rotate so that they would be a more dangerous obstacle to get around.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A major problem we encountered was with the obstacles knocking the player back. We
 initially thought we could just have an obstacle knock a player back as an inconvenience for not
 avoiding it. Unfortunately, we ran into a problem with forces working on a kinematic rigidbody.
 We learned that you cannot add force to a kinematic rigidbody. If we disabled the isKinematic
@@ -104,7 +118,7 @@ Orbit.cs given in the first lab
 
 Lessons Learned:
 -------------------------------------------------
-We all learned a lot about unity and VR/Game Design throughout this project. I (Jacob)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We all learned a lot about unity and VR/Game Design throughout this project. I (Jacob)
 have wanted to learn how to create video game environments and terrain and was able to
 accomplish that with this project. I (Chris) have learned how to take into account how games,
 first person or otherwise, need to take a lot of consideration of how the user will interact with the
