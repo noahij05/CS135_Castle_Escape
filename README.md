@@ -1,3 +1,11 @@
+Fellow Programmers
+---------------------------------------------
+Jacob Halvorson - https://github.com/jhalvorson6687  
+Christopher Diaz - https://github.com/ChristopherDiaz98  
+
+
+
+
 Introduction
 -----------------------------------------------
 For our final project we built a medieval castle obstacle course where the player must
@@ -29,8 +37,10 @@ took inspiration from is Dark Souls. There is an important area within the game 
 similarities when it comes to the aesthetics of the architecture. There are also similar designs
 when it comes to the obstacles, however, many of them include violent deaths which would be
 quite jarring to the player of our game. This is why we ended up making the obstacles reset your
-starting point rather than lose outright.
+starting point rather than lose outright.  
+
 Design
+--------------------------------------
 The main components of our project consisted of the Terrain, Castle, Obstacles, and
 different menus and displays throughout the game. 
 
