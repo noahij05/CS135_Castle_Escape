@@ -105,18 +105,16 @@ through the floor! So we came up with the idea of having 2 sphere colliders, one
 boulder exactly with a proper physics material, and another one that extended beyond the
 boulder by just a bit and acted as a hit box to detect when the player hit it.
 
-Assets Used:
+Assets Used
 --------------------------------------------------
-https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-
-32351
-https://assetstore.unity.com/packages/2d/textures-materials/brick/tileable-bricks-wall-24530
-https://assetstore.unity.com/packages/2d/textures-materials/nature/stylized-lava-texture-153161
-https://assetstore.unity.com/packages/3d/props/weapons/melee-weapons-pack-swords-axes-12
-1237
-Used to learn timers: https://www.youtube.com/watch?v=x-C95TuQtf0&feature=emb_title
-Orbit.cs given in the first lab
+[Standard Assets](https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2018-4-32351)  
+[Brick Walls](https://assetstore.unity.com/packages/2d/textures-materials/brick/tileable-bricks-wall-24530)  
+[Lava Textures](https://assetstore.unity.com/packages/2d/textures-materials/nature/stylized-lava-texture-153161)  
+[Melee Weapons Pack](https://assetstore.unity.com/packages/3d/props/weapons/melee-weapons-pack-swords-axes-121237)  
+[Used to learn timers](https://www.youtube.com/watch?v=x-C95TuQtf0&feature=emb_title)  
+[Orbit.cs given in the first lab](https://github.com/noahij05/CS135_Castle_Escape/blob/main/Assets/Orbit.cs)
 
-Lessons Learned:
+Lessons Learned
 -------------------------------------------------
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We all learned a lot about unity and VR/Game Design throughout this project. I (Jacob)
 have wanted to learn how to create video game environments and terrain and was able to
@@ -134,4 +132,20 @@ screen share, like a pair programming technique. Once the basic design was imple
 uploaded the project to Unity Dashboard and Jacob continued developing the map and castle
 while Chris and Noah worked on the game scripts and mechanics. When a mechanic/obstacle
 was finished the game objects were made into prefabs and sent with the scripts to Jacob to put
-in the most current version of the game.
+in the most current version of the game.  
+
+How to Use This Repository and/or Play The Game
+-------------------------------------------------
+The directory to access if you want to change/add assets will be: 
+```
+Assets/
+```
+  
+If you wish to just run the game and see our amazing creation, then follow these steps:  
+From command line:
+```
+unzip cs135_final_project_exe.zip
+cd cs135_final_project_exe/
+./cs135_final_project
+```  
+From a file explorer, just unzip the *cs135_final_project_exe.zip* folder and run the *cs135_final_project.exe* file!
