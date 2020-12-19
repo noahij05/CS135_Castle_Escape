@@ -8,6 +8,7 @@ Christopher Diaz - https://github.com/ChristopherDiaz98
 
 Introduction
 -----------------------------------------------
+!( https://github.com/noahij05/CS135_Castle_Escape/blob/main/Photos/intro_photo.PNG?raw=true )  
 For our final project we built a medieval castle obstacle course where the player must
 evade dangerous enchanted weapons and pools of lava to reach the finish line as fast as they
 can. This is a solo player game where the goal is to try and beat your high score. The keep is
